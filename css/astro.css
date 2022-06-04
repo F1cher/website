@@ -22,6 +22,10 @@ h6 {
     padding-top: 30px;
 }
 
+p {
+    text-align: justify;
+}
+
 
 /* Container */
 
@@ -42,12 +46,23 @@ h6 {
 /*Image*/
 
 .image {
-    width: 100%;
-    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
 }
 
 .image_2 {
     margin: 10px;
+    width: 229px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.image_3 {
+    margin: 10px;
+    border-radius: 20px;
 }
 
 
